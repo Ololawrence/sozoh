@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Modal from '../utils/Modal';
-
 import HeroImage from '../images/hero-image-01.jpg';
+import { Link } from 'react-router-dom';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -9,7 +9,7 @@ function HeroHome() {
 
   useEffect(() => {
     videoModalOpen ? video.current.play() : video.current.pause();
-  }, [videoModalOpen]);    
+  }, [videoModalOpen]);
 
   return (
     <section>
@@ -37,20 +37,23 @@ function HeroHome() {
           </svg>
         </div>
 
+
+
+        
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Welcome to Sozoh Tech
+              Bariga For Christ Healing and Deliverance Crusade.
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              We are here to serve you better on all releted tech product.
+              We are here to serve you better on all releted kingdom services
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">
-                  Start Here
+                  <Link to="/signup">Start Here</Link> 
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
@@ -63,7 +66,7 @@ function HeroHome() {
 
           {/* Hero image */}
           <div>
-            <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
+            {/* <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
               <img className="mx-auto" src={HeroImage} width="1024" height="504" alt="Hero" />
               <a
                 className="absolute group"
@@ -93,7 +96,9 @@ function HeroHome() {
                   />
                 </svg>
               </a>
-            </div>
+            </div> */}
+
+         
 
             {/* Modal */}
             <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>

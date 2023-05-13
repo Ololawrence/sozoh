@@ -8,7 +8,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
+            <h2 className="h4 mb-4">These are some of the areas we are moved to serve the populace of Bariga in the ongoing move of God</h2>
+
             <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
 
@@ -22,8 +23,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Healing and delivrance</h4>
+              <p className="text-lg text-gray-400 text-center">This is to bring the healing and deliverance power of God to the sick and those in need of deliverance and as such bringing glory to God and shame to devil.</p>
             </div>
 
             {/* 2nd item */}
@@ -33,8 +34,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Descipleship</h4>
+              <p className="text-lg text-gray-400 text-center">Descipleship is one of the great commision giving to us by Jesus in accordance to Matthew 28, this section is meant to train all intrested individuals in the ways and doctrine of Christ  in the same manner Jesus taught the apostles of old</p>
             </div>
 
             {/* 3rd item */}
@@ -47,8 +48,9 @@ function FeaturesBlocks() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Evangelism</h4>
+              <p className="text-lg text-gray-400 text-center">
+                Evangelism is a way of propagating the the gospel, this part of the training is meant to train members or those who have the calling as an evangelist on how to go about evangelism and bringing the lost to Christ.</p>
             </div>
 
             {/* 4th item */}
@@ -60,8 +62,9 @@ function FeaturesBlocks() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Pastoral Training</h4>
+              <p className="text-lg text-gray-400 text-center">
+                This part of the service is meant to train all whom God has called into the pastoral office .</p>
             </div>
 
             {/* 5th item */}
@@ -73,8 +76,8 @@ function FeaturesBlocks() {
                   <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Mision Work</h4>
+              <p className="text-lg text-gray-400 text-center">This part of the training is meant for those whom God has called as an apostle or a missionary</p>
             </div>
 
             {/* 6th item */}
@@ -87,8 +90,8 @@ function FeaturesBlocks() {
                   <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Know Your Office</h4>
+              <p className="text-lg text-gray-400 text-center">Know your office is part of the on going training and it is for those whom God has called but doesn't know what and where God has called them to</p>
             </div>
 
           </div>
